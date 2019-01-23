@@ -18,3 +18,6 @@ Route::post('segi-empat/hasil', 'SegiEmpatController@hasil')->name('segi-empat.h
 Route::get('segi-empat/inputKubus', 'SegiEmpatController@inputKubus')->name('segi-empat.inputKubus');    
     
 Route::post('segi-empat/hasilKubus', 'SegiEmpatController@hasilKubus')->name('segi-empat.hasilKubus');
+
+//untuk routing semua halaman dari suatu folder
+Route::resource('kota','KotaController');
